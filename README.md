@@ -61,3 +61,27 @@ Public documentation excludes credentials, API keys, private network addresses, 
 IT infrastructure and operations professional developing practical experience in enterprise virtualization, Linux systems, AI integration, and automation through self-directed projects.
 
 This repository is an evolving technical portfolio. Additional documentation and implementation details will be added as the environment develops.
+
+## Infrastructure Architecture
+
+The following diagram illustrates the current home lab architecture, including the virtualization host, Ubuntu VM, containerized AI application, and external AI provider.
+
+```mermaid
+flowchart TD
+    A[Dell PowerEdge T440] --> B[Proxmox VE]
+    B --> C[Ubuntu Server VM]
+    C --> D[Docker]
+    D --> E[Open WebUI]
+    E --> F[OpenRouter]
+```
+
+### Architecture Notes
+
+- **Physical infrastructure:** Dell PowerEdge T440 running Proxmox VE.
+- **Virtualization:** Ubuntu Server VM hosts containerized applications.
+- **Application hosting:** Docker runs Open WebUI.
+- **AI integration:** Open WebUI connects to OpenRouter for AI model access.
+- **Remote administration:** Tailscale and SSH provide secure remote access.
+- **Future expansion:** Additional VMs will be documented as they are deployed.
+
+
