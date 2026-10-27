@@ -84,4 +84,16 @@ flowchart TD
 - **Remote administration:** Tailscale and SSH provide secure remote access.
 - **Future expansion:** Additional VMs will be documented as they are deployed.
 
+## Project Documentation
 
+Explore the infrastructure, technologies, and applications implemented in this enterprise lab.
+
+| Project Area | Description |
+|---|---|
+| [Virtual Machines](virtual-machines/README.md) | Ubuntu Server deployment, Docker services, and virtual machine infrastructure. |
+| [Networking & Security](networking/README.md) | Tailscale VPN, SSH administration, secure remote access, and security practices. |
+| [JWR Commerce IT Resale AI](projects/jwr-commerce-ai/README.md) | Self-hosted AI application supporting business IT asset sourcing, inventory analysis, and supplier research. |
+
+### Ongoing Development
+
+This repository is continuously updated as additional virtual machines, infrastructure services, automation workflows, and AI applications are deployed and tested.
